@@ -1,1 +1,71 @@
 /* The following is custom css that will be included with your specific apps.  Feel free to add any custom css you want included in your app. */
+.img {
+	border: 1px solid #000;
+}
+.floatright {
+	float: right;
+	margin: 0 0 2% 2%;
+}
+.floatleft {
+	float: left;
+	margin: 0 2% 2% 0;
+}
+h3 {
+	clear: none;
+}
+.update_table {
+	width: 100%;
+}
+.update_table th {
+	padding: 2% 0;
+	background-color: #363636;
+	color: #fff;
+}
+.program_heading {
+	width: 50%;
+}
+.other_heading {
+	width: 16.5%;
+}
+.table_name_td {
+
+}
+.table_other_td {
+	text-align: center;
+}
+#contentnprimary {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;"
+}
+.homecontent {
+	width: 55%;
+	float: left;
+	border-right: 1px solid #000;
+	padding: 0 2% 0 0;
+}
+.homecontent hr {
+	background-color: #000;
+}
+#homesidebar {
+	float: right;
+	width: 35%;
+	height: auto;
+}
+.sidebardiv {
+	width: 100%;
+	float: right;
+	border: 1px solid #000;
+	padding: 2% 5%;
+	background-color: #363636;
+	color: #fff;
+	margin-bottom: 3%;
+}
+.sidebardiv h3 {
+	float: left;
+	clear: both;
+	margin-top: 1%;
+	border-bottom: 1px solid #000;
+	color: #ec5b45;
+	width: 100%;
+}

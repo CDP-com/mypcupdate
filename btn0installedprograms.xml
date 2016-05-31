@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<btn0installedprograms>
+     <installed>
+          <program>Chrome</program>
+     </installed>
+     <installed>
+          <program>Firefox</program>
+     </installed>
+     <installed>
+          <program>Office 365 Home</program>
+     </installed>
+     <installed>
+          <program>Skype</program>
+     </installed>
+     <installed>
+          <program>Java</program>
+     </installed>
+     <installed>
+          <program>Adobe Flash</program>
+     </installed>
+     <installed>
+          <program>Optimize Windows</program>
+     </installed>
+</btn0installedprograms>
