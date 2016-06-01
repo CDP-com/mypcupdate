@@ -2,6 +2,9 @@
 
 <btn0installedprograms>
      <installed>
+          <program>Windows Updates</program>
+     </installed>
+	 <installed>
           <program>Chrome</program>
      </installed>
      <installed>
@@ -18,8 +21,5 @@
      </installed>
      <installed>
           <program>Adobe Flash</program>
-     </installed>
-     <installed>
-          <program>Optimize Windows</program>
      </installed>
 </btn0installedprograms>

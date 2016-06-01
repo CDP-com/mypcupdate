@@ -25,10 +25,25 @@ else if (arguments){
 		var action = actions[i].firstChild.nodeValue;
 		// Note: The "program" name must match the Arguments Values you defined in applib.js
 		// Note: The "action" will either always be "cdpcertified" or "updateasap"
-				
+		
+		// Windows Updates
+			// Windows Updates
+			if (program == "Windows Updates" && action == "cdpcertified"){
+				var wsh = new ActiveXObject("WScript.Shell");
+				wsh.popup( "Windows Updates selected to auto update after CDP certification", 5, "Update My PC" );
+
+				wsh = null;
+			}
+			else if (program == "Windows Updates" && action == "updateasap"){
+				var wsh = new ActiveXObject("WScript.Shell");
+				wsh.popup( "Windows Updates selected to auto update as soon as update is made available", 5, "Update My PC" );
+
+				wsh = null;
+			}
+		
 		// Browsers
 			// Chrome
-			if (program == "Chrome" && action == "cdpcertified"){
+			else if (program == "Chrome" && action == "cdpcertified"){
 				var wsh = new ActiveXObject("WScript.Shell");
 				wsh.popup( "Chrome selected to auto update after CDP certification", 5, "Update My PC" );
 
@@ -285,87 +300,6 @@ else if (arguments){
 				wsh = null;
 			}
 			
-		// Optimizations
-			// Disable Windows 10 Notification
-			else if (program == "Disable Windows 10 Notification" && action == "cdpcertified"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Disable Windows 10 Notification selected to auto update after CDP certification", 5, "Update My PC" );
-
-				wsh = null;
-			}
-			else if (program == "Disable Windows 10 Notification" && action == "updateasap"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Disable Windows 10 Notification selected to auto update as soon as update is made available", 5, "Update My PC" );
-
-				wsh = null;
-			}
-			// Fix My Lenovo
-			else if (program == "Fix My Lenovo" && action == "cdpcertified"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Fix My Lenovo selected to auto update after CDP certification", 5, "Update My PC" );
-
-				wsh = null;
-			}
-			else if (program == "Fix My Lenovo" && action == "updateasap"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Fix My Lenovo selected to auto update as soon as update is made available", 5, "Update My PC" );
-
-				wsh = null;
-			}
-			// Optimize Windows
-			else if (program == "Optimize Windows" && action == "cdpcertified"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Optimize Windows selected to auto update after CDP certification", 5, "Update My PC" );
-
-				wsh = null;
-			}			
-			else if (program == "Optimize Windows" && action == "updateasap"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Optimize Windows selected to auto update as soon as update is made available", 5, "Update My PC" );
-
-				wsh = null;
-			}
-			
-		// Remove Unnecessary OEM Software (Junkware)
-			// Remove Unnecessary Lenovo Software
-			else if (program == "Remove Unnecessary Lenovo Software" && action == "cdpcertified"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Remove Unnecessary Lenovo Software selected to auto update after CDP certification", 5, "Update My PC" );
-
-				wsh = null;
-			}
-			else if (program == "Remove Unnecessary Lenovo Software" && action == "updateasap"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Remove Unnecessary Lenovo Software selected to auto update as soon as update is made available", 5, "Update My PC" );
-
-				wsh = null;
-			}
-			// Remove Unnecessary Dell Software
-			else if (program == "Remove Unnecessary Dell Software" && action == "cdpcertified"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Remove Unnecessary Dell Software selected to auto update after CDP certification", 5, "Update My PC" );
-
-				wsh = null;
-			}
-			else if (program == "Remove Unnecessary Dell Software" && action == "updateasap"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Remove Unnecessary Dell Software selected to auto update as soon as update is made available", 5, "Update My PC" );
-
-				wsh = null;
-			}
-			// Remove Unnecessary HP Software
-			else if (program == "Remove Unnecessary HP Software" && action == "cdpcertified"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Remove Unnecessary HP Software selected to auto update after CDP certification", 5, "Update My PC" );
-
-				wsh = null;
-			}
-			else if (program == "Remove Unnecessary HP Software" && action == "updateasap"){
-				var wsh = new ActiveXObject("WScript.Shell");
-				wsh.popup( "Remove Unnecessary HP Software selected to auto update as soon as update is made available", 5, "Update My PC" );
-
-				wsh = null;
-			}
 			
 	}
 	

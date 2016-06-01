@@ -28,55 +28,50 @@ var btn0_Source = "updatebutton.txt";    // Duplicate the above script as a .txt
 var btn0_id="btn0";							// The unique ID of the button.  Please follow the format provided.
 
 // Button0 Arguments
-var btn0_arguments=8; 						// Must specify if your button has any arguments, even if its 0 (zero) 
+var btn0_arguments=7; 						// Must specify if your button has any arguments, even if its 0 (zero) 
 
-var btn0_arguments0DisplayName = "Browsers";	// The name of your argument option which is displayed to the user
-var btn0_arguments0Description = "<p>A browser is a specific program or application which enables you to visit various websites.</p>";	// The textual description for this argument
-var btn0_arguments0Values = ["Chrome","Firefox","Edge (Internet Explorer)","Opera","Vivaldi"];	// The values for this argument, which are in an array
-var btn0_arguments0Default = ["Chrome","Firefox"];		// The default value which is selected upon page load and before the button is ever run
+var btn0_arguments0DisplayName = "Windows Updates";	// The name of your argument option which is displayed to the user
+var btn0_arguments0Description = "<p>Windows Updates are specific patches pushed out by Microsoft to your machines operating system (OS). These updates are often for enhancements, security patches, and other critical features.</p>";	// The textual description for this argument
+var btn0_arguments0Values = ["Windows Updates"];	// The values for this argument, which are in an array
+var btn0_arguments0Default = ["Windows Updates"];		// The default value which is selected upon page load and before the button is ever run
 var btn0_arguments0Fixed = [""];			// Are any of the values fixed, meaning they cannot be changed by the user?  If so, include them in an array.  If not, leave blank.
 
-var btn0_arguments1DisplayName = "Office 365";	// The name of your argument option which is displayed to the user
-var btn0_arguments1Description = "<p>Office 365, previously Microsoft Office in previous iterations, is a productivity suite containing a number of well-known programs such as Word, Excel, and Powerpoint.</p>";	// The textual description for this argument
-var btn0_arguments1Values = ["Office 365 Home","Office 365 Business","Office 365 Business Premium","Office 365 Business Essentials"];	// The values for this argument, which are in an array
-var btn0_arguments1Default = ["Office 365 Home"];		// The default value which is selected upon page load and before the button is ever run
+var btn0_arguments1DisplayName = "Browsers";	// The name of your argument option which is displayed to the user
+var btn0_arguments1Description = "<p>A browser is a specific program or application which enables you to visit various websites.</p>";	// The textual description for this argument
+var btn0_arguments1Values = ["Chrome","Firefox","Edge (Internet Explorer)","Opera","Vivaldi"];	// The values for this argument, which are in an array
+var btn0_arguments1Default = ["Chrome","Firefox"];		// The default value which is selected upon page load and before the button is ever run
 var btn0_arguments1Fixed = [""];			// Are any of the values fixed, meaning they cannot be changed by the user?  If so, include them in an array.  If not, leave blank.
 
-var btn0_arguments2DisplayName = "Productivity Suites";	// The name of your argument option which is displayed to the user
-var btn0_arguments2Description = "<p>Productivity Suites, like Office 365, are packages of programs including document editors, spreadsheet programs, slide presentations, and more.</p>";	// The textual description for this argument
-var btn0_arguments2Values = ["OpenOffice","Google Apps"];	// The values for this argument, which are in an array
-var btn0_arguments2Default = [""];		// The default value which is selected upon page load and before the button is ever run
+var btn0_arguments2DisplayName = "Office 365";	// The name of your argument option which is displayed to the user
+var btn0_arguments2Description = "<p>Office 365, previously Microsoft Office in previous iterations, is a productivity suite containing a number of well-known programs such as Word, Excel, and Powerpoint.</p>";	// The textual description for this argument
+var btn0_arguments2Values = ["Office 365 Home","Office 365 Business","Office 365 Business Premium","Office 365 Business Essentials"];	// The values for this argument, which are in an array
+var btn0_arguments2Default = ["Office 365 Home"];		// The default value which is selected upon page load and before the button is ever run
 var btn0_arguments2Fixed = [""];			// Are any of the values fixed, meaning they cannot be changed by the user?  If so, include them in an array.  If not, leave blank.
 
-var btn0_arguments3DisplayName = "Communication/Messaging Programs";	// The name of your argument option which is displayed to the user
-var btn0_arguments3Description = "<p>Communication/Messaging programs either allow you to instant message other users over the internet or chat over video/audio.</p>";	// The textual description for this argument
-var btn0_arguments3Values = ["Skype"];	// The values for this argument, which are in an array
-var btn0_arguments3Default = ["Skype"];		// The default value which is selected upon page load and before the button is ever run
+var btn0_arguments3DisplayName = "Productivity Suites";	// The name of your argument option which is displayed to the user
+var btn0_arguments3Description = "<p>Productivity Suites, like Office 365, are packages of programs including document editors, spreadsheet programs, slide presentations, and more.</p>";	// The textual description for this argument
+var btn0_arguments3Values = ["OpenOffice","Google Apps"];	// The values for this argument, which are in an array
+var btn0_arguments3Default = [""];		// The default value which is selected upon page load and before the button is ever run
 var btn0_arguments3Fixed = [""];			// Are any of the values fixed, meaning they cannot be changed by the user?  If so, include them in an array.  If not, leave blank.
 
-var btn0_arguments4DisplayName = "Sync Programs";	// The name of your argument option which is displayed to the user
-var btn0_arguments4Description = "<p>Sync programs allow you to connect directly to the cloud and, even, other machines. These programs allow you to sync your data to servers in the cloud as well as to other devices. Sync important documents, photos, music, and more.</p>";	// The textual description for this argument
-var btn0_arguments4Values = ["BitTorrent Sync","GoodSync","SugarSync","Dropbox","Google Drive"];	// The values for this argument, which are in an array
-var btn0_arguments4Default = [""];		// The default value which is selected upon page load and before the button is ever run
+var btn0_arguments4DisplayName = "Communication/Messaging Programs";	// The name of your argument option which is displayed to the user
+var btn0_arguments4Description = "<p>Communication/Messaging programs either allow you to instant message other users over the internet or chat over video/audio.</p>";	// The textual description for this argument
+var btn0_arguments4Values = ["Skype"];	// The values for this argument, which are in an array
+var btn0_arguments4Default = ["Skype"];		// The default value which is selected upon page load and before the button is ever run
 var btn0_arguments4Fixed = [""];			// Are any of the values fixed, meaning they cannot be changed by the user?  If so, include them in an array.  If not, leave blank.
 
-var btn0_arguments5DisplayName = "Popular Dependencies";	// The name of your argument option which is displayed to the user
-var btn0_arguments5Description = "<p>Dependencies are, essentially, libraries that are stored on your computer and which a number of programs utilize. For example, Java is a programming language a wide number of programs use. Adobe Flash is a library often used to play video content in your browser.</p>";	// The textual description for this argument
-var btn0_arguments5Values = ["Java","Adobe Flash"];	// The values for this argument, which are in an array
-var btn0_arguments5Default = ["Java","Adobe Flash"];		// The default value which is selected upon page load and before the button is ever run
+var btn0_arguments5DisplayName = "Sync Programs";	// The name of your argument option which is displayed to the user
+var btn0_arguments5Description = "<p>Sync programs allow you to connect directly to the cloud and, even, other machines. These programs allow you to sync your data to servers in the cloud as well as to other devices. Sync important documents, photos, music, and more.</p>";	// The textual description for this argument
+var btn0_arguments5Values = ["BitTorrent Sync","GoodSync","SugarSync","Dropbox","Google Drive"];	// The values for this argument, which are in an array
+var btn0_arguments5Default = [""];		// The default value which is selected upon page load and before the button is ever run
 var btn0_arguments5Fixed = [""];			// Are any of the values fixed, meaning they cannot be changed by the user?  If so, include them in an array.  If not, leave blank.
 
-var btn0_arguments6DisplayName = "Optimizations";	// The name of your argument option which is displayed to the user
-var btn0_arguments6Description = "<p>SnapBack Optimizations are quick fixes to a number of problems with your PC. Problems may be the result of OEM software, of choices made on your behalf regarding the Operating System, and more. These Optimizations will ensure that your machine is set to work for ideal speed and performance, while ensuring that your data is protected and secure.</p>";	// The textual description for this argument
-var btn0_arguments6Values = ["Disable Windows 10 Notification","Fix My Lenovo","Optimize Windows"];	// The values for this argument, which are in an array
-var btn0_arguments6Default = ["Optimize Windows"];		// The default value which is selected upon page load and before the button is ever run
+var btn0_arguments6DisplayName = "Popular Dependencies";	// The name of your argument option which is displayed to the user
+var btn0_arguments6Description = "<p>Dependencies are, essentially, libraries that are stored on your computer and which a number of programs utilize. For example, Java is a programming language a wide number of programs use. Adobe Flash is a library often used to play video content in your browser.</p>";	// The textual description for this argument
+var btn0_arguments6Values = ["Java","Adobe Flash"];	// The values for this argument, which are in an array
+var btn0_arguments6Default = ["Java","Adobe Flash"];		// The default value which is selected upon page load and before the button is ever run
 var btn0_arguments6Fixed = [""];			// Are any of the values fixed, meaning they cannot be changed by the user?  If so, include them in an array.  If not, leave blank.
 
-var btn0_arguments7DisplayName = "Remove Unnecessary OEM Software (Junkware)";	// The name of your argument option which is displayed to the user
-var btn0_arguments7Description = "<p>Often, when you buy a new PC it includes a number of programs distributed by the Original Equipment Manufacturer (OEM). These programs are occassionally unnecessary and bog down your machine. In worst case scenarios, these programs may have vulnerabilities that can leave your machine unsecure. The Setup My PC app will remove the worst of these offenders so your machine can work optimally.</p>";	// The textual description for this argument
-var btn0_arguments7Values = ["Remove Unnecessary Lenovo Software","Remove Unnecessary Dell Software","Remove Unnecessary HP Software"];	// The values for this argument, which are in an array
-var btn0_arguments7Default = [""];		// The default value which is selected upon page load and before the button is ever run
-var btn0_arguments7Fixed = [""];			// Are any of the values fixed, meaning they cannot be changed by the user?  If so, include them in an array.  If not, leave blank.
 
 // Permissions for Button0 to be set in HKEY_LOCAL_MACHINE 
 // Don't forget to edit the complementary app-reg.reg file and run it as an administrator
@@ -148,7 +143,7 @@ function CreateButtonPCUpdate()
 	for (i=0,j=1; i<btncount; i++,j++){
 		var s="<table class='main-table'>";
 		
-		// Create each button
+		// Create main button
 		s+="<td style='width: 32%;'>";
 		s+="<div id='cdpbutton"+j+"' class='button-wrapper'>";
 		s+="<button package='";
@@ -174,6 +169,10 @@ function CreateButtonPCUpdate()
 		s+="</tr>";
 		s+="</table>";
 		s+="<p>Note: You will only be able to update programs you already have installed. These programs will be marked by being bold and having the text ''(Installed)'' next to the program name.</p>";
+		
+		// Add select all checkbox
+		s+="<div style='float: right;'><input type='checkbox' onclick='checkAll(this)'> Select All Available Programs</div>";
+		s+="<div style='clear: both;'></div>";
 		
 		// Load any arguments specified
 		try {
@@ -410,6 +409,7 @@ $(document).ready(function() {
 									try {
 										// Enable Auto Update checkbox for installed program 
 										$("input[type='checkbox'][class='autoupdate'][value='"+installedProgram+"']").attr('disabled', false).attr('title', 'Click to enable auto updates for this program');
+										
 										// Add css rules and text for installed program 
 										$(".table_name_td:contains("+installedProgram+")").css('font-weight', 'bold').append(' (Installed)');
 										
@@ -432,6 +432,7 @@ $(document).ready(function() {
 														var selectedAction = actionTag[0].firstChild.nodeValue;
 														// Programatically check program user has selected
 														$("input[type='checkbox'][class='autoupdate'][value='"+defaultProgram+"']").prop("checked",true);
+														
 														// Programatically check update option user has selected
 														$("input[type='radio'][class='"+selectedAction+"'][value='"+defaultProgram+"']").prop("checked",true);
 													}
@@ -487,11 +488,13 @@ $(document).ready(function() {
 						if ($('#argument'+n+'_value'+v+'').is(':checked')) {
 							// Enable Radio Button Option for "Install When CDP Certified"
 							$('#argument'+n+'_value'+v+'_cdpcertified').removeAttr('disabled').attr("title", 'Check this box to force the program to auto update based upon SnapBack community expert recommendations.');
+							
 							// Enable Radio Button Option for "Install As Soon As Available"
 							$('#argument'+n+'_value'+v+'_updateasap').removeAttr('disabled').attr("title", 'Check this box to force the program to auto update as soon as a new update release is available.');
 						} else {
 							// Disable Radio Button Option for "Install When CDP Certified"
 							$('#argument'+n+'_value'+v+'_cdpcertified').attr('disabled', true).attr("title", 'You cannot select to auto update a program based upon community recommendations if the auto update checkbox is not selected.');
+							
 							// Disable Radio Button Option for "Install As Soon As Available"
 							$('#argument'+n+'_value'+v+'_updateasap').attr('disabled', true).attr("title", 'You cannot select to auto update a program as soon as an update is available if the auto update checkbox is not selected.');
 						}
@@ -509,18 +512,51 @@ $(document).ready(function() {
 function uncheckRadioButtons(obj){
 	if (obj.checked == true){
 		var radioboxID = $(obj).attr('id');
+		
 		// Enable Radio Button Option and Select as Default Option
 		$('#' + radioboxID + '_cdpcertified').removeAttr('disabled').attr("title", 'Check this box to force the program to Auto Update via SnapBack and based upon CDP certification.').attr("checked", true);
+		
 		// Enable Radio Button Option
 		$('#' + radioboxID + '_updateasap').removeAttr('disabled').attr("title", 'Check this box to force the program to Auto Update via SnapBack and based upon the first availability.');
 	}
 	if (obj.checked == false){
 		var radioboxID = $(obj).attr('id');
+		
 		// Disable Radio Button Option
 		$('#' + radioboxID + '_cdpcertified').prop('checked', false).attr('disabled', true).attr("title", 'You cannot select to auto update a program based upon community recommendations if the auto update checkbox is not selected.');
+		
 		// Disable Radio Button Option
 		$('#' + radioboxID + '_updateasap').prop('checked', false).attr('disabled', true).attr("title", 'You cannot select to auto update a program as soon as an update is available if the auto update checkbox is not selected..');
 	}
+}
+
+// Function to select all available programs, mark them for auto update, and give the default value to update when CDP certified
+function checkAll(bx) {
+	var cbs = document.getElementsByTagName('input');
+	for (var i=0; i < cbs.length; i++) {
+	
+    if (cbs[i].type == 'checkbox' && cbs[i].disabled == false) {
+		cbs[i].checked = bx.checked;
+		if (cbs[i].checked) {
+			var radioSelectAllID = $(cbs[i]).attr('id');
+			
+			// Enable Radio Button Option and Select as Default Option
+			$('#' + radioSelectAllID + '_cdpcertified').removeAttr('disabled').attr("title", 'Check this box to force the program to Auto Update via SnapBack and based upon CDP certification.').attr("checked", true);
+			
+			// Enable Radio Button Option
+			$('#' + radioSelectAllID + '_updateasap').removeAttr('disabled').attr("title", 'Check this box to force the program to Auto Update via SnapBack and based upon the first availability.');
+		}
+		else {
+			var radioSelectAllID = $(cbs[i]).attr('id');
+			
+			// Disable Radio Button Option
+			$('#' + radioSelectAllID + '_cdpcertified').prop('checked', false).attr('disabled', true).attr("title", 'You cannot select to auto update a program based upon community recommendations if the auto update checkbox is not selected.');
+			
+			// Disable Radio Button Option
+			$('#' + radioSelectAllID + '_updateasap').prop('checked', false).attr('disabled', true).attr("title", 'You cannot select to auto update a program as soon as an update is available if the auto update checkbox is not selected..');
+		}
+    }
+  }
 }
 
 // Set different row colors for ease of reading
